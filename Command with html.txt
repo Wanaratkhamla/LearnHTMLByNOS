@@ -1,0 +1,62 @@
+body
+- bgcolor="สี" กำหนดสีพื้นหลังในหน้าเว็บเพจ
+- text="สี" กำหนดสีตัวอักษร
+- background="url" กำหนดพื้นหลังเป็นรูปภาพ
+- bgproperties="fixed" กำหนดให้รูปพื้นหลังไม่เลื่อนตาม scrollbar
+- topmargin="number" กำหนดระยะของเนื้อหาให้ห่างจากขอบด้านบน
+- leftmargin="number" กำหนดระยะของเนื้อหาให้ห่างจากขอบด้านซ้าย
+- text="" สีของตัวอักษร
+
+- style="background:url(bg.gif) fixed repeat;" กำหนดให้รูปพื้นหลังไม่เลื่อนตาม scrollbar
+
+topmargin="number" leftmargin="number"> กำหนดระยะห่างจาก ....
+body
+
+Command ใช้ได้ทุกอย่าง
+ - สีใส่ได้ 2แบบ คือ แบบCode และแบบ ชื่อสี
+ - สัญลักษณ์พิเศษ
+	©	&copy;
+	®	&reg;
+	™	&trade;
+	"	&quot;
+	&	&amp;
+	<	&lt;
+	>	&gt;
+	&nbsp = เว้นวรรค
+ - <p align="left | center | right |justify">...</p>
+  justify = กระจายให้พอดี
+  <div> </div> มักใช้ร่วมกั css
+  <span>....</span> มักใช้กับข้อความสั้นๆ
+  <del>26/3/2009</del>
+  <ins>31/3/2009</ins>!
+
+  Table
+    <table>	ใช้สร้างตารางข้อมูล
+	<th>	สำหรับข้อความที่เป็นหัวคอลัมน์ จะเป็นตัวหนา
+	<tr>	สำหรับแถวของตาราง
+	<td>	สำหรับข้อมูลในแต่ละ cell
+	<caption>	คำอธิบายตาราง
+	<thead>	กำหนดส่วน head ของตาราง
+	<tbody>	กำหนดส่วน body ของตาราง
+	<tfoot>	กำหนดส่วน footer ของตาราง
+	<colgroup>	กำหนดคุณสมบัติให้ groups ของคอลัมน์ในตาราง ใช้ร่วมกับ <col> 
+	(Firefox ไม่สนับสนุน)
+	<col>	กำหนดคุณสมบัติให้คอลัมน์ใดๆ (Firefox ไม่สนับสนุน)
+	
+	"_blank" เปิดหน้าเว็บเพจในหน้าต่าง Browser ใหม่ 
+	"_self" เปิดหน้าเว็บเพจในหน้าต่าง Browser เดิม และ Frame เดิม 
+	"_parent" เปิดหน้าเว็บเพจในหน้าต่าง Browser เดิม 
+	"_top" เปิดหน้าเว็บเพจในหน้าต่าง Browser เดิมแบบเต็มหน้า และยกเลิก frame ทั้งหมด 
+
+Head
+<h1> </h1> มีตั้งแต่ 1-6 ตามขนาด
+<hr> เส้นคั้น
+- width="number | %" ความยาวของเส้นคั่น
+- size="number" ความหนาของเส้นคั่น มีค่าเป็น 1 ถึง 7 และ -1 ถึง -7
+- align="left | center | right" ตำแหน่งที่จัดวาง
+- color="สี" สีของเส้นคั่น
+- noshade กำหนดให้เป็นเส้นทึบ
+
+<hr size="5" noshade="noshade" color="red" width="70%" align="right">
+Head
+
